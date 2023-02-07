@@ -1,0 +1,47 @@
+.container {
+    padding-top: 40px;
+}
+.coach_row {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1em;
+}
+.con{
+  background-image: url("https://images4.alphacoders.com/150/thumb-1920-150168.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  image-resolution: 1400px;
+}
+
+.msg {
+  height: 2em;
+}
+
+.circle {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  color: white;
+  
+}
+
+.rowx {
+  margin-right: 32px;
+  font-size: 0.71em;
+  background: rgb(12, 29, 213);
+}
+
+.seat {
+background: rgb(0, 255, 55);
+margin: 0 2px;
+}
+
+.seat.booked {
+  background: rgb(255, 0, 34);
+}
